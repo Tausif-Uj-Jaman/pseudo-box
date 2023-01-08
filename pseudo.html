@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            color: royalblue;
+        }
+        h1:hover{
+            color: skyblue;
+            background-color: seagreen;
+            margin: 50px;
+            padding: 50px;
+            font-size: 50px;
+            font-weight: 700;
+        }
+        .middle-person:focus{
+            color: blue;
+            font-weight: 700;
+
+        }
+        a:visited{
+            color: red;
+        }
+        li:first-child{
+            color: blue;
+        }
+        li:last-child{
+            color: blueviolet;
+        }
+        li:nth-child(2n+1){
+            background-color: blueviolet;
+        }
+        h3::before {
+           content:' Hello';
+        }
+        .special::after{
+            content: 'Bye';
+            background-color: brown;
+            font-size: 30px;
+        }
+    </style>
+</head>
+<body>
+    <h1> This is normal</h1>
+    <input type="text">
+    <input class="middle-person" type="text">
+    <input type="text">
+    <br>
+    <a href="https://www.google.com/">google a jao</a>
+    <a href="https://web.proramming-hero.com/">proramming hero te jao</a>
+    
+    <br>
+    <h3>middle size header-1</h3>
+    <h3 class="special">middle size header-2</h3>
+    <h3>middle size header-3</h3>
+    <h3 class="special">middle size header-4</h3>
+    <h3>middle size header-5</h3>
+    <h3 class="special">middle size header-6</h3>
+    <ul>
+        <li>jason</li>
+        <li>joseph</li>
+        <li>jessica</li>
+        <li>alia</li>
+        <li>jeniffer</li>
+        <li>alice</li>
+        <li>micheal</li>
+        <li>lopez</li>
+        <li>woman</li>
+    </ul>
+</body>
+</html>
